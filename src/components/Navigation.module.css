@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+.item {
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
+
+    font-family: Montserrat;
+    color: black;
+
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item:hover {
+    background-color: rgba(255, 255, 255,1);
+    border-radius: 45%;
+}
+.active {
+    color: #D2AA1B;
+    font-weight: bold;
+}

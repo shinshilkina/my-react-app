@@ -1,3 +1,24 @@
-ul li {
-  list-style-type: armenian;
+.app-wrapper {
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  grid-template-columns: 4fr 10fr;
+  grid-gap: 10px;
+  grid-template-areas:
+  "header header"
+  "navigation content"
+;
+}
+
+.navigation {
+  grid-area: navigation;
+  background-color: rgba( 211, 211, 211, 0.3);
+}
+
+.header {
+  grid-area: header;
+}
+
+.content {
+  grid-area: content;
+  background-color: aquamarine;
 }
