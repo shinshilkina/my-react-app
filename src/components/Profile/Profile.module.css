@@ -1,0 +1,13 @@
+.profile { /* --- */}
+.header_image { /* --- */}
+.data {
+    display: flex;
+    padding: 0.5rem;
+    background-color: rgba(210, 170, 27, 0.4);
+}
+.data__avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.data__about { /* --- */}
