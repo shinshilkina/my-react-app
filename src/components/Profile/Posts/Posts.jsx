@@ -10,8 +10,8 @@ const Posts = (props) => {
               <textarea placeholder='text of post'></textarea>
               <button>Add</button>
           </div>
-          <Post imageAddr = {props.imageAddr} />
-          <Post imageAddr = {props.imageAddr} />
+          <Post imageAddr = {props.imageAddr} message='Hi, how are you?' />
+          <Post imageAddr = {props.imageAddr} message="It's my first post"/>
       </div>
   );
 };
