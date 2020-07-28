@@ -1,4 +1,6 @@
-.profile { /* --- */}
+.profile {
+    max-width: 70vw;
+}
 .header_image { /* --- */}
 .data {
     display: flex;
