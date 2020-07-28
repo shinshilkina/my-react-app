@@ -1,12 +1,14 @@
 .app-wrapper {
   display: grid;
   grid-template-rows: 80px 1fr;
-  grid-template-columns: 4fr 10fr;
+  grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
   grid-template-areas:
-  "header header"
-  "navigation content"
-;
+    "header header"
+    "navigation content"
+  ;
+
+  margin: 10px 10px;
 }
 
 .navigation {
@@ -18,7 +20,7 @@
   grid-area: header;
 }
 
-.content {
+.profile {
   grid-area: content;
   background-color: aquamarine;
 }
