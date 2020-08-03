@@ -20,7 +20,8 @@
   grid-area: header;
 }
 
-.profile {
+.app-wrapper-content {
   grid-area: content;
   background-color: aquamarine;
 }
+
